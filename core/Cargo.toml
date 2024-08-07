@@ -90,6 +90,9 @@ nickel-lang-utils.workspace = true
 similar.workspace = true
 test-generator.workspace = true
 
+[lints.clippy]
+doc_lazy_continuation = { level = "allow" }
+
 # Enable this to use flamegraphs
 # [profile.release]
 # debug = true
